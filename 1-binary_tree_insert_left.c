@@ -8,7 +8,7 @@
  *
  * Description: If left-child already exist in parent node, it is replaced
  * by the new one
-*/
+ */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	if (parent == NULL)
@@ -32,5 +32,4 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	}
 	parent->left = newnode;
 	return (newnode);
-
 }
