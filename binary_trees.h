@@ -50,4 +50,5 @@ void binary_tree_traverse_level(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 void binary_tree_traverse_current_level(const binary_tree_t *tree,
 void (*func)(int), int level);
+int binary_tree_is_complete(const binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */
