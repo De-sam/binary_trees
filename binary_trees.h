@@ -43,4 +43,6 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_count_nodes(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+const binary_tree_t *second);
 #endif /* _BINARY_TREES_H_ */
